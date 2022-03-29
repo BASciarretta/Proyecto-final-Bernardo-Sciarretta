@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 100px;
+  height: 70px;
+}
+
+.active {
+  color: brown;
+}
+
+h1 {
+  font-family: "League Gothic", sans-serif;
+  font-size: 5rem;
+  animation-duration: 4s;
+  animation-name: h1;
+  span {
+    color: rgb(165, 42, 42);
+    @keyframes h1 {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+h2 {
+  font-family: "League Gothic", sans-serif;
+}
+
+p {
+  font-family: "Arvo", sans-serif;
+}

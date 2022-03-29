@@ -1,0 +1,13 @@
+// Patrón de colores //
+$principal: rgb(165, 42, 42);
+// Variables modificadas //
+$primary: $principal;
+
+// Imports //
+@import url("https://fonts.googleapis.com/css2?family=Arvo&family=League+Gothic&display=swap");
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "general";
+@import "productos";
+@import "quienes_somos";
+@import "contacto";
+@import "mapa";
